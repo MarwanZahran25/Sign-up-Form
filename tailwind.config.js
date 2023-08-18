@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        leftImage:"url(../assests/leaf.avif)"
+      }
+    },
     fontFamily: {
       'cairo':['Cairo', 'serif']
     }
