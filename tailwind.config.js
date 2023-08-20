@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
   theme: {
     extend: {
       backgroundImage:{
@@ -8,7 +8,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      'cairo':['Cairo', 'serif']
+      'cairo':['cairo', 'serif']
     }
   },
   plugins: [],
